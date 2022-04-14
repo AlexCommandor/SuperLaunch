@@ -1,0 +1,115 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=R:\!_Work\Alex_K\Progs\SuperLaunch\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\INIPRO.OCX=
+R:\!_Work\Alex_K\Progs\SuperLaunch\Vbshell.tlb=
+R:\!_Work\Alex_K\Progs\SuperLaunch\GflAx.dll=
+R:\!_Work\Alex_K\Progs\SuperLaunch\SSIcon.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+r:\!_work\alex_k\progs\superlaunch\ssicon.dll=
+r:\!_work\alex_k\progs\superlaunch\gflax.dll=
+r:\!_work\alex_k\progs\superlaunch\no_preview.ico=
+r:\!_work\alex_k\progs\superlaunch\vbshell.tlb=
+r:\!_work\alex_k\progs\superlaunch\vbshell.odl=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\INIPRO.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+R:\!_Work\Alex_K\Progs\SuperLaunch\SSIcon.dll=Yes
+R:\!_Work\Alex_K\Progs\SuperLaunch\GflAx.dll=Yes
+R:\!_Work\Alex_K\Progs\SuperLaunch\NO_PREVIEW.ICO=Yes
+R:\!_Work\Alex_K\Progs\SuperLaunch\Vbshell.tlb=Yes
+R:\!_Work\Alex_K\Progs\SuperLaunch\Vbshell.odl=Yes
+\\psf\R\!_Work\Alex_K\Progs\SuperLaunch\SuperStarter.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+R:\!_Work\Alex_K\Progs\SuperLaunch\SuperStarter.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\INIPRO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+R:\!_Work\Alex_K\Progs\SuperLaunch\SSIcon.dll=$(WinSysPath)
+R:\!_Work\Alex_K\Progs\SuperLaunch\GflAx.dll=$(WinSysPath)
+R:\!_Work\Alex_K\Progs\SuperLaunch\NO_PREVIEW.ICO=$(AppPath)
+R:\!_Work\Alex_K\Progs\SuperLaunch\Vbshell.tlb=$(WinSysPath)
+R:\!_Work\Alex_K\Progs\SuperLaunch\Vbshell.odl=$(WinSysPath)
+\\psf\R\!_Work\Alex_K\Progs\SuperLaunch\SuperStarter.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+R:\!_Work\Alex_K\Progs\SuperLaunch\SuperStarter.exe=No
+R:\!_Work\Alex_K\Progs\SuperLaunch\NO_PREVIEW.ICO=No
+\\psf\R\!_Work\Alex_K\Progs\SuperLaunch\SuperStarter.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SuperStarter
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SuperStarter
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SuperStarter]
+Icon1=SuperStarter.exe
+Title1=SuperStarter
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=R:\!_Work\Alex_K\Progs\SuperLaunch\Package
+ProjectFolder=\\psf\R\!_Work\Alex_K\Progs\SuperLaunch
+ServerSideCab=
+File1=R:\!_Work\Alex_K\Progs\SuperLaunch\Package\setup.exe
+File2=R:\!_Work\Alex_K\Progs\SuperLaunch\Package\Setup.Lst
+File3=R:\!_Work\Alex_K\Progs\SuperLaunch\Package\SuperStarter.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

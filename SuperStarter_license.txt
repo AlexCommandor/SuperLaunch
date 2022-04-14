@@ -1,0 +1,30 @@
+=========================================
+                               WARNING !!!
+=========================================
+
+You are about to install program SuperStarter.
+
+This program is deployed and licensed "AS IS",
+without any warranties!!! Using this program
+is on your own risk!
+
+The program changes some file associations to manage itself!
+
+This is next files types:
+---------------------------------------------------------------------------
+.AI, .EPS, .PDF, .TIF, .QXD, .QXP, .INDD, .INX, .IDML, .CDR
+---------------------------------------------------------------------------
+
+AFTER REMOVAL OF THIS PROGRAM THE FILES TYPES ASSOCIATION MAY BE WILL NOT BE RESTORED!!!
+
+You will need to manually assign them to those programs that you want to use!
+
+If you still want to install the program, you must agree that you will use this program on your own risk.
+
+Program is installing as 14-days TRIAL. After that you may stop using this program,
+or e-mail me to get serial number for permanent using.
+
+All suggestions, comments and serial number request
+you may e-mail me to < alex.commandor@gmail.com >
+
+Best regards, Alex Commandor, Kyiv, Ukraine :)
